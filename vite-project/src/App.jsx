@@ -6,4 +6,8 @@ function App() {
   const completedTasks = tasks.filter((task) => task.state === "completed");
   const inProgressTasks = tasks.filter((task) => task.state !== "completed");
 
+  function generateList(list) {
+    return (
+
+
   export default App
